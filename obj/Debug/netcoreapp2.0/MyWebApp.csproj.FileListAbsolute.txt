@@ -1,0 +1,12 @@
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\bin\Debug\netcoreapp2.0\MyWebApp.deps.json
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\bin\Debug\netcoreapp2.0\MyWebApp.runtimeconfig.json
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\bin\Debug\netcoreapp2.0\MyWebApp.runtimeconfig.dev.json
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\bin\Debug\netcoreapp2.0\MyWebApp.dll
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\bin\Debug\netcoreapp2.0\MyWebApp.pdb
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\MyWebApp.csproj.CoreCompileInputs.cache
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\MyWebApp.AssemblyInfoInputs.cache
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\MyWebApp.AssemblyInfo.cs
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\MyWebApp.dll
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\MyWebApp.pdb
+c:\users\phakama.ccs\source\repos\MyWebApp\MyWebApp\obj\Debug\netcoreapp2.0\MyWebApp.csprojResolveAssemblyReference.cache

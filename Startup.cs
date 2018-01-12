@@ -30,6 +30,7 @@ namespace MyWebApp
                 .AddDefaultTokenProviders();
 
             // Add application services.
+            services.AddTransient<UserRepository>();
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
@@ -38,16 +39,14 @@ namespace MyWebApp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
                 app.UseDatabaseErrorPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+                app.UseStaticFiles();
+            //else
+            //{
+            //    app.UseExceptionHandler("/Home/Error");
+            //}
 
             app.UseStaticFiles();
 

@@ -1,0 +1,65 @@
+﻿@model ApplicationUser
+
+<h2>Please fill out the details below!!</h2>
+<hr />
+
+<form asp-action="Index" asp-controller="AppUser" method="post" asp-antiforgery="true"
+      class="form-horizontal" role="form">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="FirstName" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateOfBirth" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="DateOfBirth" class="form-control" id="datepicker" />
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Address" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CellNumber" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="CellNumber" class="form-control" />
+            <span asp-validation-for="CellNumber" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EmailAddress" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="EmailAddress" class="form-control" />
+            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-5">
+            <input type="submit" class="btn btn-primary" value="Add User" />
+        </div>
+    </div>
+
+</form> 
